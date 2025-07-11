@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model Fixed</title>
+  <style>
+    * {
+      box-sizing: border-box; /* 👈 THIS is the fix */
+    }
+
+    .container {
+      width: 300px;
+      background-color: lightgray;
+      padding: 10px;
+    }
+
+    .box {
+      width: 100%; /* 👈 Fill the container correctly */
+      height: 100px;
+      padding: 20px;
+      border: 5px solid black;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">
+      ✅ Box fits perfectly now!
+    </div>
+  </div>
+
+</body>
+</html>
