@@ -1,0 +1,29 @@
+/* * {
+  font-family: Arial, sans-serif;
+} */
+
+body {
+  background-color: aquamarine;
+}
+
+#first, #third{
+  color:blue;
+}
+
+/* #first h2 {
+  color: red;
+}
+
+#first p {
+  background-color:gray;
+} */
+
+
+/* .red {
+  background-color: red;
+} */
+
+/* this is called pseudo elements */
+p:hover {
+  font-family: monospace;
+}
